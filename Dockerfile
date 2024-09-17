@@ -17,7 +17,7 @@ RUN bundle install
 # Copia o restante da aplicação
 COPY . /app
 
-EXPOSE 3000
+EXPOSE 3001
 
 # Comando para iniciar o servidor
 CMD ["rails", "server", "-b", "0.0.0.0"]
