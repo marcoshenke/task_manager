@@ -2,7 +2,7 @@
 FROM ruby:3.2.2
 
 # Instala dependências do sistema
-RUN apt-get update -qq && apt-get install -y nodejs postgresql-client
+RUN apt-get update -qq && apt-get install -y nodejs postgresql-client nano
 
 # Configura o diretório de trabalho na imagem Docker
 WORKDIR /app
