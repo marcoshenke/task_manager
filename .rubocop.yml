@@ -7,11 +7,9 @@ Layout/LineLength:
   Max: 80 # Ajuste conforme necessário
 
 Style/Documentation:
-  Enabled: true # Adicione o departamento apropriado se necessário
-
+  Enabled: false
 Style/AsciiComments:
-  Enabled: true # Adicione o departamento apropriado se necessário
-
+  Enabled: true
 Gemspec/AddRuntimeDependency:
   Enabled: true
 Gemspec/DeprecatedAttributeAssignment:
