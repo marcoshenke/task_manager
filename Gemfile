@@ -38,8 +38,7 @@ gem 'rack-cors' # who’s allowed to interact with your API
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
-  gem 'debug', platforms: %i[mri windows], require: 'debug/prelude'
-  gem 'pry'
+  gem 'pry-rails'
   gem 'rspec-rails'
 
   # Static analysis for security vulnerabilities [https://brakemanscanner.org/]
@@ -47,8 +46,8 @@ group :development, :test do
 
   # Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
   gem 'rubocop', require: false
-  gem 'rubocop-rails', require: false
   gem 'rubocop-performance', require: false
+  gem 'rubocop-rails', require: false
 end
 
 group :development do
@@ -65,3 +64,4 @@ end
 gem 'devise', '~> 4.9'
 gem 'devise-jwt'
 gem 'dotenv-rails'
+gem 'jsonapi-serializer'

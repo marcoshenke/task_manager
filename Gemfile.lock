@@ -97,9 +97,6 @@ GEM
     connection_pool (2.4.1)
     crass (1.0.6)
     date (3.3.4)
-    debug (1.9.2)
-      irb (~> 1.10)
-      reline (>= 0.3.8)
     devise (4.9.4)
       bcrypt (~> 3.0)
       orm_adapter (~> 0.1)
@@ -141,6 +138,8 @@ GEM
       actionview (>= 5.0.0)
       activesupport (>= 5.0.0)
     json (2.7.2)
+    jsonapi-serializer (2.2.0)
+      activesupport (>= 4.2)
     jwt (2.9.0)
       base64
     language_server-protocol (3.17.0.3)
@@ -180,6 +179,8 @@ GEM
     pry (0.14.2)
       coderay (~> 1.1)
       method_source (~> 1.0)
+    pry-rails (0.3.11)
+      pry (>= 0.13.0)
     psych (5.1.2)
       stringio
     public_suffix (6.0.1)
@@ -330,14 +331,14 @@ DEPENDENCIES
   bootsnap
   brakeman
   capybara
-  debug
   devise (~> 4.9)
   devise-jwt
   dotenv-rails
   importmap-rails
   jbuilder
+  jsonapi-serializer
   pg (~> 1.1)
-  pry
+  pry-rails
   puma (>= 5.0)
   rack-cors
   rails (~> 7.2.1)
